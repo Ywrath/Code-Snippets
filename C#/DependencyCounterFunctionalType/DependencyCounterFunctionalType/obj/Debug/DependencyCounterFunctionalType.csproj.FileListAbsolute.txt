@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\DependencyCounterFunctionalType\DependencyCounterFunctionalType\bin\Debug\DependencyCounterFunctionalType.exe.config
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\DependencyCounterFunctionalType\DependencyCounterFunctionalType\bin\Debug\DependencyCounterFunctionalType.exe
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\DependencyCounterFunctionalType\DependencyCounterFunctionalType\bin\Debug\DependencyCounterFunctionalType.pdb
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\DependencyCounterFunctionalType\DependencyCounterFunctionalType\obj\Debug\DependencyCounterFunctionalType.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\DependencyCounterFunctionalType\DependencyCounterFunctionalType\obj\Debug\DependencyCounterFunctionalType.exe
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\DependencyCounterFunctionalType\DependencyCounterFunctionalType\obj\Debug\DependencyCounterFunctionalType.pdb

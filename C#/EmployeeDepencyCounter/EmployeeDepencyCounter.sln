@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDepencyCounter", "EmployeeDepencyCounter\EmployeeDepencyCounter.csproj", "{1D374A90-32ED-4630-84FE-010E24B2E2FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D374A90-32ED-4630-84FE-010E24B2E2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D374A90-32ED-4630-84FE-010E24B2E2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D374A90-32ED-4630-84FE-010E24B2E2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D374A90-32ED-4630-84FE-010E24B2E2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57DB2E5A-1F94-4C2A-A301-E73FBFA1A865}
+	EndGlobalSection
+EndGlobal
