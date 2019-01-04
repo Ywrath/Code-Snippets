@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\ItemFinder\ItemFinder\bin\Debug\ItemFinder.exe.config
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\ItemFinder\ItemFinder\bin\Debug\ItemFinder.exe
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\ItemFinder\ItemFinder\bin\Debug\ItemFinder.pdb
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\ItemFinder\ItemFinder\obj\Debug\ItemFinder.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\ItemFinder\ItemFinder\obj\Debug\ItemFinder.exe
+C:\Users\Admin\Documents\IT Stuff\Code Snippets\C#\ItemFinder\ItemFinder\obj\Debug\ItemFinder.pdb
