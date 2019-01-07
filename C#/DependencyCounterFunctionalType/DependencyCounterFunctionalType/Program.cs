@@ -21,7 +21,7 @@ namespace DependencyCounterFunctionalType
             }
             catch(IndexOutOfRangeException ex) 
             {
-                Console.WriteLine("No such dependency");
+                Console.WriteLine("No such dependency", ex);
                 Console.WriteLine("Enter dependency or '999' to quit application: ");
                 dep = int.Parse(Console.ReadLine());
             }
@@ -37,7 +37,7 @@ namespace DependencyCounterFunctionalType
             }
             catch(IndexOutOfRangeException ex)
             {
-                Console.WriteLine("No such dependency");
+                Console.WriteLine("No such dependency", ex);
                 Console.WriteLine("Enter dependency or '999' to quit application: ");
                 dep = int.Parse(Console.ReadLine()); 
             }
