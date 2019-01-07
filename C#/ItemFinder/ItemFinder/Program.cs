@@ -9,9 +9,9 @@ namespace ItemFinder
     class Program
     {
         int item;
-        const int ARRAY_SIZE = 6;
-        int[] valid_items = new int[ARRAY_SIZE] {100, 200, 300, 400, 500, 600 };
-        int[] valid_prices = new int[ARRAY_SIZE] { 100, 150, 200, 250, 300, 350 };
+        const int ARRAY_SIZE = 10;
+        int[] valid_items = new int[ARRAY_SIZE] {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
+        int[] valid_prices = new int[ARRAY_SIZE] { 100, 150, 200, 250, 300, 350, 400, 450, 500, 550};
         int itemprice;
         int selecteditem;
         int sub;
@@ -20,11 +20,20 @@ namespace ItemFinder
         string message_yes = "Item is available";
         string message_no = "Item is not available";
         int finish = 999;
+        bool validinput;
 
         public int getReady()
         {
-            Console.WriteLine("Enter an item number or enter '999' to quit application: ");
-            item = int.Parse(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("Enter an item number or enter '999' to quit application: ");
+                item = int.Parse(Console.ReadLine());
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Please enter number only!", ex);
+            }
             return item;
         }
 
@@ -53,8 +62,21 @@ namespace ItemFinder
                 Console.WriteLine(message_no);
                 baditemcount += 1;
             }
-            Console.WriteLine("Enter an item number or enter '999' to quit application: ");
-            item = int.Parse(Console.ReadLine());
+            validinput = false;
+            while (validinput != true)
+            {
+                try
+                {
+                    Console.WriteLine("Enter an item number or enter '999' to quit application: ");
+                    item = int.Parse(Console.ReadLine());
+                    validinput = true;
+
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine("Please enter number only!", ex);
+                }
+            }
             return item;
             
         }
